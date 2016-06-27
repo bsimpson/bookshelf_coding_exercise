@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bookshelf</title>
+    <%= csrf_meta_tags %>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body ng-app="app.bookshelf">
+    <div class="container">
+      <div class="row"><hr /></div>
+      <div class="row bg-info">
+        <h1 class="text-md-center p-a-1">Bookshelf Sample Codebase</h1>
+      </div>
+      <div class="row"><hr /></div>
+    </div>
+    <%= yield %>
+  </body>
+</html>
