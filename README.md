@@ -5,7 +5,7 @@ technical abilities on a variety of tracks. **Expected time to complete all trac
 (Note that all tracks may not apply to your position.)
 
 To get started, fork this project to your Github user account. When you are finished
-you will create a PR for your branch back into the upstream branch.
+you will create a pull request (PR) for your branch back into the upstream branch.
 
 # About this Exercise
 
